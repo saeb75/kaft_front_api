@@ -1,0 +1,109 @@
+.signupHeader {
+  width: 100%;
+  height: 200px;
+  background-color: #f2f1e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.signupHeader p {
+  font-size: 30px;
+  color: #a7a59a;
+}
+.signupHeader h2 {
+  font-size: 70px;
+  color: #4e20ba;
+}
+.saeb {
+  direction: rtl;
+}
+.registerForm {
+  border: 1px solid #f2f1e9;
+  padding: 45px;
+}
+
+.form-control {
+  direction: rtl;
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background: #fbfaf8 repeat-x;
+
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s,
+    -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.myCheckBox {
+  justify-content: flex-end;
+}
+.form-control:focus {
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
+}
+.registerForm h6 {
+  direction: rtl;
+  text-align: right;
+  margin-bottom: 15px;
+  color: #a7a59a;
+}
+.registerButton {
+  width: 100%;
+  border: none;
+  padding: 15px;
+  background-color: #8faf3a;
+  color: white;
+  margin-top: 15px;
+  direction: rtl;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s all;
+  border-radius: 8px;
+}
+.registerButton:hover {
+  opacity: 0.8;
+}
+.registerInfo {
+  width: 100%;
+}
+.registerInfo ul {
+  list-style: none;
+}
+.registerInfo ul li {
+  display: flex;
+  margin-bottom: 25px;
+  align-items: center;
+  justify-content: space-between;
+}
+.registerInfo ul li img {
+  width: 80px;
+}
+.registerInfo ul li h6 {
+  direction: rtl;
+  font-size: 14px;
+  width: 200px;
+}
+
+.registerButton img {
+  width: 30px;
+  margin-right: 15px;
+}
+
+.formButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.formButtons .registerButton {
+  background-color: rgb(125, 56, 204);
+}

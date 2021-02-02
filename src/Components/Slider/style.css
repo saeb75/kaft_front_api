@@ -1,0 +1,134 @@
+.my_video_slide {
+  width: 100%;
+  z-index: 9;
+  position: relative;
+}
+.video_info_container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video_slider {
+  position: relative;
+}
+.video_info_container div {
+  direction: rtl;
+}
+
+.video_info_container h1 {
+  text-align: right;
+  color: white;
+  font-family: Cairo;
+  font-weight: bold;
+  font-size: 70px;
+}
+.video_info_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  direction: rtl;
+  align-items: center;
+}
+.video_logo {
+  margin-right: 320px;
+}
+.video_info_container p {
+  text-align: right;
+  font-size: 3rem;
+  font-family: Cairo;
+  color: white;
+  display: flex;
+}
+.video_logo img {
+  width: 14rem;
+}
+.video_info {
+  text-align: right;
+}
+.video_info button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  font-size: 25px;
+}
+@media only screen and (max-width: 800px) {
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media only screen and (max-width: 992px) {
+  .video_info_container p {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .video_info_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .video_info_container h1 {
+    font-size: 3rem;
+  }
+  .video_info {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .video_info button {
+    width: 130px;
+    height: 40px;
+    font-size: 25px;
+  }
+  .video_logo {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .video_info_container p {
+    font-size: 1.2rem;
+  }
+  .video_info_container {
+    height: 100%;
+  }
+  .video_info_container h1 {
+    font-size: 2.5rem;
+  }
+  .video_info button {
+    width: 70px;
+    height: 30px;
+
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .video_info_container p {
+    font-size: 1rem;
+  }
+  .video_info_container h1 {
+    font-size: 1.7rem;
+  }
+
+  .video_info button {
+    width: 60px;
+    height: 25px;
+
+    font-size: 1rem;
+  }
+}

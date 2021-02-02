@@ -1,0 +1,11 @@
+.activeLogo {
+  width: 800px;
+  height: 800px;
+}
+
+.activeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

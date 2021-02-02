@@ -1,0 +1,115 @@
+.productProfile img {
+  /*   width: 90% !important; */
+}
+.productProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer !important;
+}
+
+.thumbnail {
+  direction: rtl;
+  display: flex;
+  justify-content: center;
+}
+
+.thumbnail img {
+  width: 70px;
+  height: 85px;
+  opacity: 0.4;
+  margin-right: 5px;
+}
+.activeProfile img {
+  opacity: 1;
+  cursor: pointer;
+}
+.thumbnail img:hover {
+  width: 70px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.ProductName h5 {
+  color: #2e2920;
+}
+
+.ProductStory {
+  padding: 20px 80px;
+  text-align: center;
+  direction: rtl;
+  background-color: #fbfaf8;
+}
+
+.ProductStory h6 {
+  color: #85817b;
+  font-size: 14px;
+}
+.ProductStory p {
+  color: #85817b;
+  font-size: 14px;
+}
+
+.form-select {
+  width: 50px;
+}
+.selectCostum:focus {
+  outline: none;
+  box-shadow: none;
+}
+.selectCostum {
+  width: 120px !important;
+  height: 50px;
+}
+.productSelects {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.productSelects div h6 {
+  direction: rtl;
+  color: #85817b;
+  margin-top: 15px;
+}
+
+.basketButton {
+  background-color: #c2db9b;
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.productAccordion {
+  width: 100%;
+  direction: rtl;
+  background-color: #fbfaf8;
+  display: flex;
+  align-items: center;
+  padding: 15px 55px;
+  justify-content: space-between;
+  border-right: 1px solid #deddd2;
+  border-left: 1px solid #deddd2;
+  border-bottom: 1px solid #deddd2;
+  cursor: pointer;
+}
+.productAccordion:last-child {
+  border-bottom: none;
+}
+
+.ProductAcoordionMenu {
+  border: 1px solid #deddd2;
+  border-right: none;
+  border-left: none;
+  border-radius: 5px;
+  margin-top: 25px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.ProductAcoordionMenu p {
+  margin: 0px;
+  color: #a09f93;
+}

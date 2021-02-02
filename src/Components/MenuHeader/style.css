@@ -1,0 +1,194 @@
+.menu_navbar {
+  display: flex;
+  align-items: center;
+  direction: rtl;
+  height: 100%;
+  margin-right: 150px;
+  justify-content: space-between;
+}
+.menu_navbar > ul {
+  direction: rtl;
+  list-style: none;
+  display: flex;
+  height: 100%;
+  position: relative;
+  margin-bottom: 0px;
+  align-items: center;
+  padding: 0;
+}
+.menu_navbar > ul > li {
+  margin-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 110px;
+  height: 50px;
+  margin-top: 10px;
+  transition: 0.4s all;
+}
+.menu_navbar > ul > li > a {
+  display: flex;
+  width: 110px;
+  height: 40px;
+  color: #33322e !important;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 4px;
+  border: solid 1px#dfded9;
+}
+.shopping_cart_icon a {
+  display: flex;
+  width: 90px;
+  height: 40px;
+  color: #33322e;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #dfded9;
+  border: solid 1px#dfded9;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.shopping_cart_icon span {
+  font-size: 22px;
+}
+.shpping_icon {
+  font-size: 25px;
+}
+.menu_navbar > ul > li:hover {
+  background-color: #dfded9;
+  border-radius: 4px;
+}
+.menu_navbar > ul > li:hover > ul {
+  display: flex;
+}
+
+.menu_navbar > ul > li ul {
+  position: absolute;
+  top: 60px;
+  width: 800px;
+  background-color: #dfded9;
+  direction: rtl;
+  right: 0;
+  z-index: 999;
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  height: 450px;
+  display: none;
+}
+.dropDowns li {
+  margin: 0px !important;
+  padding: 5px;
+
+  height: 90px;
+  border: 1px solid#d3d0c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: none !important;
+  border-right: none !important;
+  transition: 0.4s all;
+  cursor: pointer;
+}
+.dropDowns li:hover {
+  background-color: #f2f1e9;
+}
+.dropDowns li a {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px !important;
+  padding: 0px;
+  width: 100%;
+  color: ;
+}
+.dropDownFirstPostion li {
+  width: 50%;
+}
+.dropDownFirstPostion {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.dropDownSecoundPostion {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.dropDowns li:first-child {
+  border: 1px solid #d3d0c4;
+  border-top: none;
+  border-right: none;
+}
+.dropDownSecoundPostion li {
+  height: 150px;
+  padding: 0px !important;
+  position: relative;
+  border: none !important;
+}
+.dropDownSecoundPostion li a {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #44423c75;
+  position: absolute;
+  flex-direction: column;
+  color: white;
+  z-index: 99;
+  text-decoration: none;
+  transition: 0.4s all;
+}
+.dropDownSecoundPostion li a:hover {
+  background-color: #44423cc7;
+}
+.hover_effect {
+  display: none;
+}
+.dropDownSecoundPostion li a:hover .hover_effect {
+  display: block;
+}
+.dropDownSecoundPostion li a:hover .not_hover {
+  display: none;
+}
+.dropDownSecoundPostion li a p {
+  font-size: 15px;
+}
+.shirt_icon {
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+.dropDownSecoundPostion img {
+  width: 300px;
+  height: 100%;
+}
+.dropDownSecoundPostion_link h1,
+.dropDownSecoundPostion_link h5,
+.dropDownSecoundPostion_link p {
+  color: white !important;
+}
+.hover_effect > p {
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white !important;
+}
+
+.not_hover p,
+.not_hover h5 {
+  color: white !important;
+}
+
+@media only screen and (max-width: 800px) {
+}
+@media only screen and (max-width: 992px) {
+  .menu_navbar {
+    display: none;
+  }
+}

@@ -1,0 +1,34 @@
+.cardImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.quickSee {
+  display: none;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+.categoryCard {
+  position: relative;
+}
+.CardInfo {
+  width: 65%;
+  height: 100%;
+}
+.categoryCard:hover .quickSee {
+  display: flex;
+}
+
+.categoryCard:hover .namePrice {
+  display: none;
+}
+
+.cardLink {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

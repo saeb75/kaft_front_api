@@ -1,0 +1,14 @@
+.myBorder {
+  border-top: 2px dashed #a0a099;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myBorder h5 {
+  position: absolute;
+  padding: 10px 30px;
+  background-color: white;
+}
