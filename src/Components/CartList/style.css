@@ -1,0 +1,51 @@
+.tableNav {
+  direction: rtl;
+  color: #116c7f;
+}
+.tableNav > div {
+  text-align: right !important;
+  display: flex;
+  align-items: center;
+  color: #116c7f;
+}
+.tableHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #116c7f;
+}
+.table__delete {
+  flex: 1;
+}
+.table__product {
+  flex: 1;
+}
+.table__description {
+  color: #116c7f;
+  flex: 3;
+}
+.table__quantity {
+  flex: 1;
+}
+.table__price {
+  flex: 1;
+}
+.table__totalPrice {
+  flex: 1;
+}
+.increase,
+.decrease {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fbfaf8;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.quantity {
+  padding: 5px;
+}

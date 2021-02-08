@@ -28,12 +28,20 @@ const ProductList = () => {
     await setColor("");
     dispatch(getProductsByCategories({ slug }));
     dispatch(getProductsColor({ slug }));
+  }, [!location.search]);
+
+  useEffect(async () => {
+    await setColor("");
+    dispatch(getProductsByCategories({ slug }));
+    dispatch(getProductsColor({ slug }));
   }, [slug]);
+
   useEffect(async () => {
     await setColor("");
     dispatch(getProductsByCategories({ slug, size, color }));
     dispatch(getProductsColor({ slug }));
   }, []);
+
   let { products, productsDetals } = product;
   let colorArray = productsDetals.map((item) => item.color);
   let sizeArray = products.map((item) => item.productDetails);
@@ -49,7 +57,7 @@ const ProductList = () => {
       parsed.size = size;
     }
     const stringified = queryString.stringify(parsed);
-    console.log(parsed);
+
     await setColor(myColor.enName);
     history.push(`${location.pathname}?${stringified}`);
     await dispatch(

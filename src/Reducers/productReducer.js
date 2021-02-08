@@ -49,7 +49,6 @@ export const productReducer = (state = initialState, action) => {
         loading: true,
       };
     case GET_SINGLE_PRODUCT_SUCCESS:
-      console.log(action.payload);
       return {
         ...state,
         singleProduct: action.payload,

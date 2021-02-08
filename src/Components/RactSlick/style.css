@@ -1,0 +1,48 @@
+.swiper-button-next {
+  position: absolute;
+  top: 50% !important;
+  right: 0px !important;
+  background-color: white;
+  margin-top: 0 !important;
+  margin-right: -24px;
+  display: flex;
+  justify-content: center;
+  height: 140px !important;
+  align-self: center;
+  align-items: center;
+  width: 49px !important;
+  transform: translateY(-50%) !important;
+
+  margin-bottom: 5px;
+  border-radius: 10px 0px 0px 10px;
+  box-shadow: -2px 2px 4px 2px rgb(0 0 0 / 10%);
+}
+
+.Cswiper {
+  position: relative;
+}
+
+.swiper-button-prev {
+  position: absolute;
+  top: 50% !important;
+  left: 0px !important;
+  margin: 0 !important;
+  background-color: white;
+  height: 140px !important;
+  transform: translateY(-50%) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px !important;
+  box-shadow: 2px 2px 4px 2px rgb(0 0 0 / 20%);
+  border-radius: 0px 10px 10px 0px;
+}
+.swiper-container {
+  position: unset !important;
+  width: 90%;
+}
+
+.swiper-slide {
+  padding: 50px;
+  background-color: blue;
+}

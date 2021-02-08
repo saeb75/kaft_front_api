@@ -48,7 +48,7 @@ const SignUp = () => {
       setEmailError(true);
     } else {
       setEmailError(false);
-      console.log(data);
+
       dispatch(signUp(data));
     }
   };

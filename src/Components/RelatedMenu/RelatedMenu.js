@@ -5,7 +5,7 @@ import ProductCard from "../ProductCard/ProductCard";
 import "./style.css";
 const RelatedMenu = () => {
   let list = data.slice(0, 3);
-  console.log(list);
+
   return (
     <Container>
       <div className="myBorder mt-5">

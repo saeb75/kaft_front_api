@@ -13,7 +13,6 @@ const SignIn = () => {
   const auth = useSelector((state) => state.auth);
 
   const onSubmit = (data) => {
-    console.log(data);
     dispatch(signIn(data));
   };
   return (
