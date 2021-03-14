@@ -25,19 +25,14 @@ const ProductList = () => {
   let { slug } = useParams();
 
   useEffect(async () => {
-    await setColor("");
-    dispatch(getProductsByCategories({ slug }));
-    dispatch(getProductsColor({ slug }));
-  }, [!location.search]);
+    if (!location.search) {
+      console.log("key");
+      dispatch(getProductsByCategories({ slug }));
+      dispatch(getProductsColor({ slug }));
+    }
+  }, [location.key]);
 
   useEffect(async () => {
-    await setColor("");
-    dispatch(getProductsByCategories({ slug }));
-    dispatch(getProductsColor({ slug }));
-  }, [slug]);
-
-  useEffect(async () => {
-    await setColor("");
     dispatch(getProductsByCategories({ slug, size, color }));
     dispatch(getProductsColor({ slug }));
   }, []);

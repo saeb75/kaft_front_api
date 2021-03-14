@@ -11,7 +11,7 @@ const BannerSection = () => {
     <div>
       <Container fluid style={{ backgroundColor: "white" }} className="py-4">
         <Container className="banner_section_container">
-          <Row>
+          {/*   <Row>
             <Col md="12" className="mb-2 banner_section_col">
               <div className="banner_col_container">
                 <img src={oldSchool} />
@@ -38,7 +38,7 @@ const BannerSection = () => {
                 </a>
               </div>
             </Col>
-          </Row>
+          </Row> */}
           <Row>
             <Col md="4">
               <Card className="banner_section_col2">

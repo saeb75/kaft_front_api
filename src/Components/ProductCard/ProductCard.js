@@ -12,7 +12,16 @@ const ProductCard = ({ item }) => {
   const handleOpen = () => {
     setOpen(true);
   };
-  let { name, description, productImg, category, color, price, slug } = item;
+  let {
+    name,
+    description,
+    productImg,
+    category,
+    color,
+    price,
+    slug,
+    discount,
+  } = item;
   return (
     <>
       <Card className="categoryCard">
@@ -22,7 +31,16 @@ const ProductCard = ({ item }) => {
         <div className="CardInfo">
           <div className="namePrice">
             <p className="text-center">{name}</p>
-            <p className="text-center">{price}</p>
+            {discount ? (
+              <div className="d-flex justify-content-around ">
+                <p className="text-center">
+                  <del>{price}</del>
+                </p>
+                <p>{(price * discount) / 100}</p>
+              </div>
+            ) : (
+              <p className="text-center">{price}</p>
+            )}
           </div>
           <div className="quickSee">
             <span style={{ cursor: "pointer", padding: "10px" }}>Size</span>

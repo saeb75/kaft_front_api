@@ -3,7 +3,7 @@ import BannerSection from "../../Components/BannerSection/BannerSection";
 import { BestCategories } from "../../Components/BestCategories/BestCategories";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
-import NewArrivalSlider from "../../Components/NewArrivalSlider/NewArrivalSlider";
+import ProductsSlider from "../../Components/ProductsSlider/ProductsSlider";
 import { SellFeature } from "../../Components/SellFeature/SellFeature";
 import SliderSection from "../../Components/Slider/Slider";
 
@@ -13,7 +13,9 @@ const Home = () => {
       <Header />
       <SliderSection />
       <BestCategories />
-      <NewArrivalSlider />
+      <ProductsSlider sort="discount" title="شگفت انگیز" />
+      <ProductsSlider sort="sold" order="desc" title="پر بازدیدترین‌ها" />
+      <ProductsSlider sort="createdAt" order="asc" title="جدیدترین‌ها" />
       <BannerSection />
       <SellFeature />
       <Footer />

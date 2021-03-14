@@ -4,15 +4,15 @@
   right: 0px !important;
   background-color: white;
   margin-top: 0 !important;
-  margin-right: -24px;
+
   display: flex;
   justify-content: center;
   height: 140px !important;
   align-self: center;
   align-items: center;
-  width: 49px !important;
+  width: 40px !important;
   transform: translateY(-50%) !important;
-
+  color: black !important;
   margin-bottom: 5px;
   border-radius: 10px 0px 0px 10px;
   box-shadow: -2px 2px 4px 2px rgb(0 0 0 / 10%);
@@ -23,6 +23,7 @@
 }
 
 .swiper-button-prev {
+  color: black !important;
   position: absolute;
   top: 50% !important;
   left: 0px !important;
@@ -40,9 +41,4 @@
 .swiper-container {
   position: unset !important;
   width: 90%;
-}
-
-.swiper-slide {
-  padding: 50px;
-  background-color: blue;
 }
